@@ -1,0 +1,35 @@
+<div class="product-holder">
+    <article *ngFor='let product of products'>
+        <a (click)=showConfirm(product)>
+            <div class="product-image text-center">
+                <img class="img-responsive" [src]='product.imageUrl'>
+            </div>
+            <div class="product-description">
+                <ul>
+                    <li>{{product.productCode}}</li>
+                    <li>
+                        <label>İsim :</label>{{product.productName}}
+                    </li>
+                    <li>
+                        <label>Model :</label>{{product.productModel}}
+                    </li>
+                    <li>
+                        <label>Açıklama :</label>{{product.description}}
+                    </li>
+                    <li>
+                        <label>Ağaç :</label>{{product.wood}}
+                    </li>
+                    <li>
+                        <label>Genişlik :</label>{{product.productWidth}}
+                    </li>
+                    <li>
+                        <label>Yükseklik :</label>{{product.productHeight}}
+                    </li>
+                    <li>
+                        <label>Fiyat :</label>{{product.price}}
+                    </li>
+                </ul>
+            </div>
+        </a>
+    </article>
+</div>

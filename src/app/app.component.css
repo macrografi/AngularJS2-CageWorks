@@ -1,0 +1,9 @@
+.opacity-background-container{float:left; width:100%; background: rgba(0, 0, 0, 0.5); border-radius:8px;}
+.repeat-container{float:left; width:1110px; margin:15px; background: url("./images/Tile.png") repeat #000; }
+
+/*bootstrap navbar customize*/
+.navbar-default{background-color:transparent; border-color: transparent;}
+.navbar-brand {background: url("../images/logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);float: left;height: 71px;width: 199px;margin-left: 0px;}
+.header-menu{float:right; font-family:'Marck Script',cursive; padding: 0; margin:34px 0 0 0;}
+.header-menu li{float:left;color:#fff; font-size:23px; list-style-type: none; margin:0 10px; text-shadow: 1px 1px 0 #000000; }
+.header-menu li a{color:#fff;}

@@ -1,0 +1,14 @@
+
+.product-holder{float:left; width:100%;}
+article{width:277px; float:left;}
+article a{float:left; width:248px; height:100%; margin:15px; border:1px dotted rgba(153,102,51, 0.2); background-color:rgba(51, 32, 9, 0.2); color:#928059;}
+article a:hover{background-color:rgba(51, 32, 9, 0.3); border:1px dotted rgba(153,102,51, 0.3);}
+
+.product-image{width:180px; height:180px; margin:34px 34px 0 34px; border:1px dotted #332009;}
+.product-image img{padding:10px;}
+.product-description{float:left; width:180px; margin:10px 34px;}
+.product-description ul{float:left; margin:0; padding:0;}
+.product-description li{float:left; width:100%; list-style-type:none; margin-bottom:5px;}
+.product-description li:first-child{font-size:16px; color:#AD6B04;}
+.product-description li a{color:#928059;}
+.product-description label{font-weight:500; color:#AD6B04; margin:0; padding-right:5px; cursor:pointer;}
