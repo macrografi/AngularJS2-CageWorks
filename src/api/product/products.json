@@ -11,7 +11,13 @@
         "wood": "Ceviz",
         "productWidth": 10,
         "productHeight": 20,
-        "imageUrl": "./images/product/testImages.png"
+        "imageUrl": [
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png"
+        ]
     },
     {
         "productId": 2,
@@ -25,7 +31,13 @@
         "wood": "Ceviz",
         "productWidth": 10,
         "productHeight": 20,
-        "imageUrl": "./images/product/testImages.png"
+        "imageUrl": [
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png"
+        ]
     },
     {
         "productId": 3,
@@ -39,7 +51,13 @@
         "wood": "Ceviz",
         "productWidth": 10,
         "productHeight": 20,
-        "imageUrl": "./images/product/testImages.png"
+        "imageUrl": [
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png"
+        ]
     },
     {
         "productId": 4,
@@ -53,7 +71,13 @@
         "wood": "Ceviz",
         "productWidth": 10,
         "productHeight": 20,
-        "imageUrl": "./images/product/testImages.png"
+        "imageUrl": [
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png"
+        ]
     },
     {
         "productId": 5,
@@ -67,7 +91,13 @@
         "wood": "Ceviz",
         "productWidth": 10,
         "productHeight": 20,
-        "imageUrl": "./images/product/testImages.png"
+        "imageUrl": [
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png"
+        ]
     },
     {
         "productId": 6,
@@ -81,7 +111,13 @@
         "wood": "Ceviz",
         "productWidth": 10,
         "productHeight": 20,
-        "imageUrl": "./images/product/testImages.png"
+        "imageUrl": [
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png"
+        ]
     },
     {
         "productId": 7,
@@ -95,7 +131,13 @@
         "wood": "Ceviz",
         "productWidth": 10,
         "productHeight": 20,
-        "imageUrl": "./images/product/testImages.png"
+        "imageUrl": [
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png"
+        ]
     },
     {
         "productId": 8,
@@ -109,7 +151,13 @@
         "wood": "Ceviz",
         "productWidth": 10,
         "productHeight": 20,
-        "imageUrl": "./images/product/testImages.png"
+        "imageUrl": [
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png"
+        ]
     },
     {
         "productId": 9,
@@ -123,7 +171,13 @@
         "wood": "Ceviz",
         "productWidth": 10,
         "productHeight": 20,
-        "imageUrl": "./images/product/testImages.png"
+        "imageUrl": [
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png"
+        ]
     },
     {
         "productId": 10,
@@ -137,7 +191,13 @@
         "wood": "Ceviz",
         "productWidth": 10,
         "productHeight": 20,
-        "imageUrl": "./images/product/testImages.png"
+        "imageUrl": [
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png"
+        ]
     },
     {
         "productId": 11,
@@ -151,9 +211,14 @@
         "wood": "Ceviz",
         "productWidth": 10,
         "productHeight": 20,
-        "imageUrl": "./images/product/testImages.png"
-    }
-    ,
+        "imageUrl": [
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png"
+        ]
+    },
     {
         "productId": 12,
         "productName": "Saka Kafesi",
@@ -166,6 +231,12 @@
         "wood": "Ceviz",
         "productWidth": 10,
         "productHeight": 20,
-        "imageUrl": "./images/product/testImages.png"
+        "imageUrl": [
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png",
+            "./images/product/testImages.png"
+        ]
     }
 ]

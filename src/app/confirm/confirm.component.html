@@ -5,7 +5,15 @@
       <h4 class="modal-title">{{item.productCode}}</h4>
     </div>
     <div class="modal-body">
-      <img src="{{item.imageUrl}}">
+      <img src="{{item.imageUrl[0]}}">
+      <img src="{{item.imageUrl[1]}}">
+      <img src="{{item.imageUrl[2]}}">
+      <img src="{{item.imageUrl[3]}}">
+      <img src="{{item.imageUrl[4]}}">
+
+      <li *ngFor="let image of images">
+          {{ image }}
+        </li>
     </div>
   </div>
 </div>

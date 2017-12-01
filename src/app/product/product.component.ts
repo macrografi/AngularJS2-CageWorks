@@ -7,13 +7,11 @@ import { DialogService } from "ng2-bootstrap-modal";
 import { ContentChild } from '@angular/core/src/metadata/di';
 
 @Component({
-  //selector: 'app-product',
   templateUrl: './product.component.html',
   styleUrls: ['./product.component.css']
 })
 
 export class ProductComponent implements OnInit {
-  pageTitle: string = 'Product Detail';
 
   errorMessage: string;
   products: IProduct[];
@@ -27,8 +25,6 @@ export class ProductComponent implements OnInit {
   showConfirm(item) {
 
     let disposable = this.dialogService.addDialog(ConfirmComponent, {
-      title: 'Confirm title',
-      message: 'Confirm message',
       item: item
     })
   }

@@ -3,10 +3,8 @@ import { DialogComponent, DialogService } from "ng2-bootstrap-modal";
 import { IProduct } from './../product/products';
 
 export interface ConfirmModel {
-    title: string;
-    message: string;
-    item:IProduct;
-}{}
+    item: IProduct;
+}
 
 @Component({
     selector: 'confirm',
@@ -15,10 +13,11 @@ export interface ConfirmModel {
 })
 
 export class ConfirmComponent extends DialogComponent<ConfirmModel, boolean> implements ConfirmModel {
-    title: string;
-    message: string;
-    item:IProduct;
-
+    item: IProduct;
+    
+    images = ['image1', 'image2', 'image3', 'image4'];
+    myImage = this.images[0];
+    
     constructor(dialogService: DialogService) {
         super(dialogService);
     }

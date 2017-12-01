@@ -2,7 +2,7 @@
     <article *ngFor='let product of products'>
         <a (click)=showConfirm(product)>
             <div class="product-image text-center">
-                <img class="img-responsive" [src]='product.imageUrl'>
+                <img class="img-responsive" [src]='product.imageUrl[0]'>
             </div>
             <div class="product-description">
                 <ul>
