@@ -15,9 +15,6 @@ export interface ConfirmModel {
 export class ConfirmComponent extends DialogComponent<ConfirmModel, boolean> implements ConfirmModel {
     item: IProduct;
     
-    images = ['image1', 'image2', 'image3', 'image4'];
-    myImage = this.images[0];
-    
     constructor(dialogService: DialogService) {
         super(dialogService);
     }

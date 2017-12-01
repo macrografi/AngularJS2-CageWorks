@@ -23,7 +23,6 @@ export class ProductComponent implements OnInit {
   }
 
   showConfirm(item) {
-
     let disposable = this.dialogService.addDialog(ConfirmComponent, {
       item: item
     })
