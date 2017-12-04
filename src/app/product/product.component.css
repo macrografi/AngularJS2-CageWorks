@@ -2,7 +2,7 @@
 .product-holder{float:left; width:100%;}
 article{width:277px; float:left;}
 article a{float:left; width:248px; height:100%; margin:15px; border:1px dotted rgba(153,102,51, 0.2); background-color:rgba(51, 32, 9, 0.2); color:#928059;}
-article a:hover{background-color:rgba(51, 32, 9, 0.3); border:1px dotted rgba(153,102,51, 0.3);}
+article a:hover{background-color:rgba(51, 32, 9, 0.3); border:1px dotted rgba(153,102,51, 0.3); cursor:pointer;}
 
 .product-image{width:180px; height:180px; margin:34px 34px 0 34px; border:1px dotted #332009;}
 .product-image img{padding:10px;}
@@ -12,26 +12,3 @@ article a:hover{background-color:rgba(51, 32, 9, 0.3); border:1px dotted rgba(15
 .product-description li:first-child{font-size:16px; color:#AD6B04;}
 .product-description li a{color:#928059;}
 .product-description label{font-weight:500; color:#AD6B04; margin:0; padding-right:5px; cursor:pointer;}
-
-/* :host >>>.carousel-control span {
-    font-size: 80px;
-    color: #c8ff00;
-    display: block;
-    width: 50px;
-    height: 50px;
-    background: red;
-    top: 46%;
-    border-radius: 50%;
-    line-height: 1;
-  }
-  :host >>>.carousel-control span:before {
-    display: block;
-    line-height: 0.45;
-  }
-  :host >>> .carousel-indicators li {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    transition: 0.3s;
-    margin: 1px;
-  } */

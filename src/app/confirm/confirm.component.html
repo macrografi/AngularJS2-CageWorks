@@ -1,10 +1,8 @@
 <div class="modal-dialog">
   <div class="modal-content">
-    <div class="modal-header">
-      <button type="button" class="close" (click)="close()">&times;</button>
-      <h4 class="modal-title">{{item.productCode}}</h4>
-    </div>
     <div class="modal-body">
+      <button type="button" class="close" (click)="close()">&times;</button>
+      <h4 class="modal-title">{{item.productCode}} / {{item.description}}</h4>
       <carousel>
         <slide *ngFor="let image of item.imageUrl">
           <img [src]="image" alt="kafes atölyesi" style="width:100%">
