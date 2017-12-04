@@ -5,7 +5,11 @@
       <h4 class="modal-title">{{item.productCode}}</h4>
     </div>
     <div class="modal-body">
-      <li *ngFor="let imageSrc of item.imageUrl"><img [src]="imageSrc"></li>
+      <carousel>
+        <slide *ngFor="let image of item.imageUrl">
+          <img [src]="image" alt="kafes atölyesi" style="width:100%">
+        </slide>
+      </carousel>
     </div>
   </div>
 </div>

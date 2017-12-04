@@ -14,7 +14,7 @@ export interface ConfirmModel {
 
 export class ConfirmComponent extends DialogComponent<ConfirmModel, boolean> implements ConfirmModel {
     item: IProduct;
-    
+
     constructor(dialogService: DialogService) {
         super(dialogService);
     }

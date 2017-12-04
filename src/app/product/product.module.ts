@@ -4,8 +4,12 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { BootstrapModalModule } from 'ng2-bootstrap-modal';
 import { ConfirmComponent } from './../confirm/confirm.component';
+
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+
 import { ProductComponent } from './product.component';
 import { ProductService } from './product.service';
+
 
 @NgModule({
     declarations: [
@@ -19,7 +23,8 @@ import { ProductService } from './product.service';
         RouterModule.forChild([
             { path: 'products', component: ProductComponent }
         ]),
-        BootstrapModalModule.forRoot({ container: document.body })
+        BootstrapModalModule.forRoot({ container: document.body }),
+        CarouselModule.forRoot()
     ],
     entryComponents: [
         ConfirmComponent
