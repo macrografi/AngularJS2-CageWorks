@@ -1,13 +1,20 @@
+<!-- <ul>
+    <li *ngFor="let banner of banners">
+        {{banner.Id}} {{banner.Desc}} {{banner.Link}} {{banner.Url}}
+    </li>
+</ul> -->
+<carousel>
+    <slide *ngFor="let banner of banners">
+        <p class="banner-desc">
+            <span>{{banner.Desc}}</span>
+        </p>
+        <img [src]="banner.Url" alt="kafes atölyesi" style="width:100%">
+    </slide>
+</carousel>
+
 <div class="capTxtll quot">
-<h2>Home Page</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, placeat corrupti facere ex provident dignissimos exercitationem necessitatibus dolorum ullam perferendis doloribus. Quia, explicabo molestias facilis nulla magni impedit unde quasi.</p>
-<p>Nam vero impedit, quaerat suscipit facere magni eius voluptate! Animi ducimus incidunt atque explicabo, blanditiis repudiandae quaerat similique ex officia sed itaque velit possimus tenetur magni! Autem quisquam totam deserunt.</p>
-<p>Assumenda voluptates commodi alias id minus maxime molestiae eligendi porro ab dolore, error, et pariatur, suscipit quam quaerat fuga molestias iusto quod iste itaque hic corrupti sed impedit doloremque! Laboriosam!</p>
-<p>Odit molestiae id fugiat repellat quidem saepe vel ipsum soluta, sed doloribus accusantium debitis cumque sit at voluptatem, veritatis explicabo nostrum rerum suscipit quod! Minus atque beatae repellat error pariatur.</p>
-<p>Cumque facilis alias ut quaerat, quidem beatae totam aliquam quae, impedit ipsa consequuntur fuga repudiandae expedita repellat veritatis animi esse ducimus, commodi iusto veniam sit. Ducimus explicabo porro quibusdam alias!</p>
-<p>Dolorem, quisquam sapiente rerum facere sit nisi ad tenetur incidunt laboriosam labore, possimus est! Placeat, incidunt. Est doloribus illo iusto, molestias, impedit ad pariatur distinctio, eveniet laboriosam officiis voluptatum neque.</p>
-<p>Vel perferendis sit delectus repellat enim facere vero sunt excepturi impedit, dolore debitis porro reiciendis assumenda voluptatem adipisci? Dolorum natus earum voluptas nam molestias perspiciatis qui exercitationem cumque quia vero.</p>
-<p>Laudantium qui suscipit aliquam aut maxime. Obcaecati earum odio nemo repellendus quam maiores debitis natus! Vel, tenetur? Officiis facere quod perferendis vero, quo quis ad excepturi ullam ratione beatae consequatur!</p>
-<p>Voluptate, maiores iure atque quam ex repellat? Eveniet fuga dolore, libero porro animi accusamus corporis nemo ullam omnis praesentium excepturi sed vel fugiat veniam! Hic explicabo sequi dignissimos magnam eaque.</p>
-<p>Quia saepe cumque, repellendus laudantium eos repudiandae est obcaecati! Praesentium repudiandae eius id minima odio aspernatur tempora quod necessitatibus! Aperiam repellat cumque deserunt mollitia voluptatibus, recusandae tenetur libero dicta officiis!</p>
+    <h2>Home Page</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, placeat corrupti facere ex provident dignissimos
+        exercitationem necessitatibus dolorum ullam perferendis doloribus. Quia, explicabo molestias facilis nulla magni
+        impedit unde quasi.</p>
 </div>

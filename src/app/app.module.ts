@@ -3,16 +3,17 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { ProductModule } from './product/product.module';
+import { HomeModule } from 'app/home/home.module';
+
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     AboutComponent,
     ContactComponent
 
@@ -21,13 +22,14 @@ import { ContactComponent } from './contact/contact.component';
     BrowserModule,
     HttpModule,
     RouterModule.forRoot([
-      { path: 'home', component: HomeComponent },
+      // { path: 'home', component: HomeComponent },
       { path: 'about', component: AboutComponent },
       { path: 'contact', component: ContactComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: '**', redirectTo: 'home', pathMatch: 'full' }
     ]),
-    ProductModule
+    ProductModule,
+    HomeModule
   ],
   bootstrap: [AppComponent]
 })
