@@ -2,33 +2,28 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <a class="navbar-brand"></a>
-            <ul class="header-menu">
-                <li>
-                    <a [routerLink]="['/home']">
-                        <i class="fa fa-home"></i> Home</a>
-                </li>
-                <li>|</li>
-                <li>
-                    <a [routerLink]="['/about']">
-                        <i class="fa fa-building-o"></i> About cage works</a>
-                </li>
-                <li>|</li>
-                <li>
-                    <a [routerLink]="['/products']">
-                        <i class="fa fa-eye"></i> Products</a>
-                </li>
-                <li>|</li>
-                <li>
-                    <a [routerLink]="['/contact']">
-                        <i class="fa fa-map-marker"></i> Contact</a>
-                </li>
-            </ul>
         </div>
     </nav>
     <div class="row">
         <div class="col-md-12">
             <div class="opacity-background-container">
-                <div class="repeat-container">
+                <div class="menu-container">
+                    <ul class="header-menu">
+                        <li>
+                            <a [routerLink]="['/home']">Home</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/about']">About cage works</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/products']">Products</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/contact']">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-container">
                     <router-outlet></router-outlet>
                 </div>
             </div>

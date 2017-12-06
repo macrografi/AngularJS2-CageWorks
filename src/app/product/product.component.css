@@ -1,5 +1,4 @@
-
-.product-holder{float:left; width:100%;}
+.page-caps-holder {width: 100%;color: #928059;float: left;line-height: 16px !important; padding: 33px 0 0 0;text-align: justify;}
 article{width:277px; float:left;}
 article a{float:left; width:248px; height:100%; margin:15px; border:1px dotted rgba(153,102,51, 0.2); background-color:rgba(51, 32, 9, 0.2); color:#928059;}
 article a:hover{background-color:rgba(51, 32, 9, 0.3); border:1px dotted rgba(153,102,51, 0.3); cursor:pointer;}
@@ -12,3 +11,5 @@ article a:hover{background-color:rgba(51, 32, 9, 0.3); border:1px dotted rgba(15
 .product-description li:first-child{font-size:16px; color:#AD6B04;}
 .product-description li a{color:#928059;}
 .product-description label{font-weight:500; color:#AD6B04; margin:0; padding-right:5px; cursor:pointer;}
+
+.genre{font-family:'Marck Script',cursive; font-size:23px; padding: 0 0 0 15px;}
