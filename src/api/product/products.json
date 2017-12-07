@@ -1,6 +1,7 @@
 [
     {
         "productId": 1,
+        "categoryId": 1,
         "productName": "Saka Kafesi",
         "productCode": "Cage #01",
         "productModel": "Saçaklı kafes",
@@ -19,7 +20,8 @@
     },
     {
         "productId": 2,
-        "productName": "Saka Kafesi",
+        "categoryId": 2,
+        "productName": "Florya Kafesi",
         "productCode": "Cage #02",
         "productModel": "Saçaklı kafes",
         "releaseDate": "Ekim 2, 2017",
@@ -37,7 +39,8 @@
     },
     {
         "productId": 3,
-        "productName": "Saka Kafesi",
+        "categoryId": 3,
+        "productName": "Kanarya Kafesi",
         "productCode": "Cage #03",
         "productModel": "Saçaklı kafes",
         "releaseDate": "Ekim 3, 2017",
@@ -55,7 +58,8 @@
     },
     {
         "productId": 4,
-        "productName": "Saka Kafesi",
+        "categoryId": 4,
+        "productName": "Melez Kafesi",
         "productCode": "Cage #04",
         "productModel": "Saçaklı kafes",
         "releaseDate": "Ekim 4, 2017",
@@ -73,6 +77,7 @@
     },
     {
         "productId": 5,
+        "categoryId": 1,
         "productName": "Saka Kafesi",
         "productCode": "Cage #05",
         "productModel": "Saçaklı kafes",
@@ -91,7 +96,8 @@
     },
     {
         "productId": 6,
-        "productName": "Saka Kafesi",
+        "categoryId": 2,
+        "productName": "Florya Kafesi",
         "productCode": "Cage #06",
         "productModel": "Saçaklı kafes",
         "releaseDate": "Ekim 5, 2017",
@@ -109,7 +115,8 @@
     },
     {
         "productId": 7,
-        "productName": "Saka Kafesi",
+        "categoryId": 3,
+        "productName": "Kanarya Kafesi",
         "productCode": "Cage #07",
         "productModel": "Saçaklı kafes",
         "releaseDate": "Ekim 5, 2017",
@@ -127,7 +134,8 @@
     },
     {
         "productId": 8,
-        "productName": "Saka Kafesi",
+        "categoryId": 4,
+        "productName": "Melez Kafesi",
         "productCode": "Cage #08",
         "productModel": "Saçaklı kafes",
         "releaseDate": "Ekim 5, 2017",
@@ -145,6 +153,7 @@
     },
     {
         "productId": 9,
+        "categoryId": 1,
         "productName": "Saka Kafesi",
         "productCode": "Cage #09",
         "productModel": "Saçaklı kafes",
@@ -163,7 +172,8 @@
     },
     {
         "productId": 10,
-        "productName": "Saka Kafesi",
+        "categoryId": 2,
+        "productName": "Florya Kafesi",
         "productCode": "Cage #10",
         "productModel": "Saçaklı kafes",
         "releaseDate": "Ekim 5, 2017",
@@ -181,7 +191,8 @@
     },
     {
         "productId": 11,
-        "productName": "Saka Kafesi",
+        "categoryId": 3,
+        "productName": "Kanarya Kafesi",
         "productCode": "Cage #11",
         "productModel": "Saçaklı kafes",
         "releaseDate": "Ekim 5, 2017",
@@ -199,7 +210,8 @@
     },
     {
         "productId": 12,
-        "productName": "Saka Kafesi",
+        "categoryId": 4,
+        "productName": "Melez Kafesi",
         "productCode": "Cage #12",
         "productModel": "Saçaklı kafes",
         "releaseDate": "Ekim 5, 2017",

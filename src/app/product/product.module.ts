@@ -4,12 +4,10 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { BootstrapModalModule } from 'ng2-bootstrap-modal';
 import { ConfirmComponent } from './../confirm/confirm.component';
-
 import { CarouselModule } from 'ngx-bootstrap/carousel';
-
 import { ProductComponent } from './product.component';
 import { ProductService } from './product.service';
-
+import { CategoryService } from './category.service';
 
 @NgModule({
     declarations: [
@@ -21,7 +19,7 @@ import { ProductService } from './product.service';
         CommonModule,
         BootstrapModalModule,
         RouterModule.forChild([
-            { path: 'products', component: ProductComponent }
+            { path: 'products/:id', component: ProductComponent }
         ]),
         BootstrapModalModule.forRoot({ container: document.body }),
         CarouselModule.forRoot()
@@ -34,4 +32,4 @@ import { ProductService } from './product.service';
     ]
 })
 
-export class ProductModule {}
+export class ProductModule { }

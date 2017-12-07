@@ -4,11 +4,12 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { ProductModule } from './product/product.module';
 import { HomeModule } from 'app/home/home.module';
-
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
+//for app.component.html sub routerLinks
+import { CategoryService } from './product/category.service';
 
 
 @NgModule({
@@ -30,6 +31,9 @@ import { ContactComponent } from './contact/contact.component';
     ]),
     ProductModule,
     HomeModule
+  ],
+  providers:[
+    CategoryService
   ],
   bootstrap: [AppComponent]
 })

@@ -15,8 +15,8 @@
                         <li>
                             <a [routerLink]="['/about']">About cage works</a>
                         </li>
-                        <li>
-                            <a [routerLink]="['/products']">Products</a>
+                        <li *ngFor="let category of categories">
+                            <a [routerLink]="['/products/',category.categoryId]">{{category.categoryName}}</a>
                         </li>
                         <li>
                             <a [routerLink]="['/contact']">Contact</a>
@@ -39,8 +39,8 @@
                 <a [routerLink]="['/about']" title="About Cage Work">About Cage Works</a>
             </li>
             <li>|</li>
-            <li>
-                <a [routerLink]="['/products']" title="Product">Product</a>
+            <li *ngFor="let category of categories">
+                <a [routerLink]="['/products/',category.categoryId]">{{category.categoryName}}</a>
             </li>
             <li>|</li>
             <li>

@@ -12,4 +12,7 @@ article a:hover{background-color:rgba(51, 32, 9, 0.3); border:1px dotted rgba(15
 .product-description li a{color:#928059;}
 .product-description label{font-weight:500; color:#AD6B04; margin:0; padding-right:5px; cursor:pointer;}
 
-.genre{font-family:'Marck Script',cursive; font-size:23px; padding: 0 0 0 15px;}
+.genre{float:left; padding:0; margin:0; font-family:'Marck Script',cursive; font-size:23px;}
+.genre li{float:left; padding: 0 0 0 15px; list-style-type: none;}
+.genre a{float:left; color:#AD6B04;}
+.article-holder{float:left; width:100%;}
