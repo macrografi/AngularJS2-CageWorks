@@ -15,16 +15,19 @@ export class ProductService {
 
     constructor(private http: Http) { }
 
+    getProductsByCategory(categoryId: number): Observable<IProduct[]> {
+
+        return this.http.get(this.productUrl + "?categoryId=" + categoryId)
+            .map((response: Response) => <IProduct[]>response.json())
+            .do(data => console.log('Category Listed -Activated route id : ' + categoryId ))
+            .catch(this.handleError);
+    }
+
     getProducts(): Observable<IProduct[]> {
         return this.http.get(this.productUrl)
             .map((response: Response) => <IProduct[]>response.json())
             .do(data => console.log("Products Listed"))
             .catch(this.handleError);
-    }
-
-    getProduct(id: number): Observable<IProduct> {
-        return this.getProducts()
-            .map((products: IProduct[]) => products.find(p => p.productId === id));
     }
 
     private handleError(error: Response) {

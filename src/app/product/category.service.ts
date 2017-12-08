@@ -18,13 +18,8 @@ export class CategoryService {
     getCategories(): Observable<ICategory[]> {
         return this.http.get(this.categoryUrl)
             .map((response: Response) => <ICategory[]>response.json())
-            .do(data => console.log("Category Listed"))
+            .do(data => console.log("Category for router"))
             .catch(this.handleError);
-    }
-
-    getCategory(id: number): Observable<ICategory> {
-        return this.getCategories()
-            .map((categories: ICategory[]) => categories.find(p => p.categoryId === id));
     }
 
     private handleError(error: Response) {
