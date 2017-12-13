@@ -15,8 +15,15 @@
                         <li>
                             <a [routerLink]="['/about']">About cage works</a>
                         </li>
-                        <li *ngFor="let category of categories">
-                            <a [routerLink]="['/products/',category.categoryId]">{{category.categoryName}}</a>
+                        <li>
+                            <div class="dropdown" dropdown>
+                                <a dropdown-open>Product</a>
+                                <ul class="dropdown-menu subMenu">
+                                    <li *ngFor="let category of categories">
+                                        <a [routerLink]="['/products/',category.categoryId]">{{category.categoryName}}</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li>
                             <a [routerLink]="['/contact']">Contact</a>

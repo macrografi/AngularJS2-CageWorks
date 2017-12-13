@@ -17,7 +17,7 @@ export class ProductService {
 
     getProductsByCategory(categoryId: number): Observable<IProduct[]> {
 
-        return this.http.get(this.productUrl + "?categoryId=" + categoryId)
+        return this.http.get(this.productUrl)
             .map((response: Response) => <IProduct[]>response.json())
             .do(data => console.log('Category Listed -Activated route id : ' + categoryId ))
             .catch(this.handleError);

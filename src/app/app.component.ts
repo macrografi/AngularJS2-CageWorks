@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CategoryService } from './product/category.service';
 import { ICategory } from 'app/product/category';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

@@ -7,30 +7,27 @@ import { HomeModule } from 'app/home/home.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-
-//for app.component.html sub routerLinks
 import { CategoryService } from './product/category.service';
-
+import {DropdownModule} from "ng2-dropdown";
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
-    ContactComponent
-
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
     HttpModule,
     RouterModule.forRoot([
-      // { path: 'home', component: HomeComponent },
       { path: 'about', component: AboutComponent },
       { path: 'contact', component: ContactComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: '**', redirectTo: 'home', pathMatch: 'full' }
     ]),
     ProductModule,
-    HomeModule
+    HomeModule,
+    DropdownModule
   ],
   providers:[
     CategoryService

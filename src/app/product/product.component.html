@@ -2,11 +2,9 @@
 <div class="content-holder">
     <div class="page-caps-holder">
         <ul class="genre">
-            <li>Cages ...</li>
-            <!-- <p *ngFor="let product of products">{{product.categoryId}}</p> -->
-            <p *ngFor="let test of testList">{{test.title}}</p>
+            <li *ngFor="let product of products">{{product.categoryId}} - {{product.productCode}}</li>
             <!-- <li *ngFor="let category of categories">
-                <a [routerLink]="['/products/',category.categoryId]" href="">{{category.categoryId}} - {{category.categoryName}} /</a>
+                <a href="">{{category.categoryId}} - {{category.categoryName}} /</a>
             </li> -->
         </ul>
         <div class="article-holder">
@@ -43,6 +41,9 @@
                     </div>
                 </a>
             </article>
+            <ul class="genre">
+                <li *ngFor="let product of products">{{product.categoryId}} - {{product.productCode}}</li>
+            </ul>
         </div>
     </div>
 </div>
